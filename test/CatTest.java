@@ -19,7 +19,7 @@ class CatTest {
 
     @Test
     void getGender() {
-        assertTrue(c.getGender() == 'M' || c.getGender() == 'f');
+        assertTrue(c.getGender() == 'M' || c.getGender() == 'F');
     }
 
     @Test
